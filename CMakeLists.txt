@@ -16,4 +16,4 @@ add_subdirectory(Srs)
 
 add_executable(Gatito main.cpp)
 
-target_link_libraries(Gatito gatito_lib)
+target_link_libraries(Gatito gatito_lib animal_lib)
