@@ -1,5 +1,4 @@
-file(GLOB SOURCES animal.cpp)
-file(GLOB SOURCES gatito.cpp)
+file(GLOB SOURCES *.cpp)
 
 add_library(animal_lib ${SOURCES})
 add_library(gatito_lib ${SOURCES})
